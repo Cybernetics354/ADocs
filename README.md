@@ -7,6 +7,6 @@ Docs markdown extension for vscode.
 1. `comdoc` for basic component document template
 2. `comprop` for basic component properties template
 
-!["Example"](http://g.recordit.co/tXEUSXoAYB.gif)
+<img src="./assets/example.gif" alt="example" />
 
 Feel free to fork and contribute.
