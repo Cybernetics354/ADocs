@@ -1,0 +1,24 @@
+{
+    "name": "adocs",
+    "publisher": "hanifmifta",
+    "displayName": "ADocs",
+    "description": "Vscode extension for writing markdown docs",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.46.0"
+    },
+    "categories": [
+        "Extension Packs"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "markdown",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    },
+    "extensionPack": [ 
+        "yzhang.markdown-all-in-one"
+    ]
+}

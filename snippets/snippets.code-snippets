@@ -1,0 +1,42 @@
+{
+    "Components Props": {
+        "prefix": "comprops",
+        "scope": "markdown",
+        "body": [
+            "**${1:PropsName}** -> ${2:PropsType}<br />",
+            "${3:Props description here}.<br />",
+            "*${4:Additional paramteres}*",
+            "",
+            "${0}",
+        ],
+    },
+    "Component Document Template": {
+        "prefix": "comdoc",
+        "scope": "markdown",
+        "body": [
+            "---",
+            "title: ${1:ComponentName}",
+            "---",
+            "",
+            "`${1:ComponentName}` ${2:Component Description Here}",
+            "",
+            "## Usage",
+            "",
+            "```${3:Code language, ex dart, markdown, etc}",
+            "${4:Code here}",
+            "```",
+            "",
+            "## Constructors",
+            "**${1:ComponentName}**(${5:Constructor params here});<br />",
+            "Construct ${1:ComponentName}",
+            "",
+            "## Properties",
+            "",
+            "${6:Some properties here, use comprop to use props snippets}",
+            "",
+            "<br />",
+            "",
+            "#### Maintained By ${7:ex: corecybernetics354@gmail.com}",
+        ]
+    }
+}
