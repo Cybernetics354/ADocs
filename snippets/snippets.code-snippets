@@ -38,5 +38,38 @@
             "",
             "#### Maintained By ${7:ex: corecybernetics354@gmail.com}",
         ]
-    }
+    },
+    "Function Extension": {
+        "prefix": "funcex",
+        "scope": "markdown",
+        "body": [
+            "### ${1: FunctionName}()",
+            "**-> ${2: Return Data}**<br />",
+            "`${3:DataType} ${4:paramName}` ${5}<br />",
+            "${6:Desciption}<br />",
+            "*${7:non-nullable}*",
+            "",
+            "${0}",
+        ],
+    },
+    "Getter Extension": {
+        "prefix": "getex",
+        "scope": "markdown",
+        "body": [
+            "### ${1: FunctionName}()",
+            "**-> ${2: Return Data}**<br />",
+            "${3:Desciption}<br />",
+            "*${4:non-nullable}*",
+            "",
+            "${0}",
+        ],
+    },
+    "Function Extension Parameter": {
+        "prefix": "parafuncex",
+        "scope": "markdown",
+        "body": [
+            "",
+            "`${1:DataType} ${2:paramName}` ${3}",
+        ],
+    },
 }
